@@ -1,0 +1,47 @@
+{
+  "title": "Java Tutorial",
+  "description": "Java Tutorial for complete beginner",
+  "author": "Andrew Programming",
+  "language": "en",
+  "links": {
+    "sidebar": {
+      "Andrew Programming Site": "http://www.andrew-programming.com",
+      "Code on Github": "https://github.com/AndrewProgramming"
+    }
+  },
+  "plugins": [
+    "disqus",
+    "github",
+    "prism",
+    "-highlight",
+    "splitter",
+    "ad",
+    "sharing"
+  ],
+  "pluginsConfig": {
+    "disqus": {
+      "shortName": "webpack-handbook"
+    },
+    "github": {
+      "url": "https://github.com/AndrewProgramming"
+    },
+    "sitemap": {
+      "hostname": "http://zhaoda.net/"
+    },
+    "ad": {
+      "contentTop": "<div>Finding more tutorials on <a target=\"_blank\" href=\"http://www.andrew-programming.com\">Andrew Programming</a></div>",
+      "contentBottom": "<div>Finding more tutorials on <a target=\"_blank\" href=\"http://www.andrew-programming.com\">Andrew Programming</a></div>"
+    },
+    "sharing": {
+      "facebook": true,
+      "google": true,
+      "linkedin": true,
+      "qq": true,
+      "twitter": true,
+      "weibo": true
+    }
+  },
+  "theme-default": {
+    "showLevel": true
+  }
+}
