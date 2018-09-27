@@ -1,0 +1,508 @@
+
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>How to Throw Exceptions · Java Tutorial</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Andrew Programming">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-disqus/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-ad/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="ChapterSummary.html" />
+    
+    
+    <link rel="prev" href="PutAllTogether.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="http://www.andrew-programming.com" target="_blank" class="custom-link">Andrew Programming Site</a>
+        </li>
+    
+        
+        <li>
+            <a href="https://github.com/AndrewProgramming" target="_blank" class="custom-link">Code on Github</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    Java Basic
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../Basic/IntroductionToJavaProgramming.html">
+            
+                <a href="../Basic/IntroductionToJavaProgramming.html">
+            
+                    
+                    Introduction To Java Programming
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../Basic/JDKandJREandJVM.html">
+            
+                <a href="../Basic/JDKandJREandJVM.html">
+            
+                    
+                    JDK JRE and JVM
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    Java Exceptions
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="IntroductionToJavaException.html">
+            
+                <a href="IntroductionToJavaException.html">
+            
+                    
+                    Introduction To Java Exception
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="JavaExceptionTypes.html">
+            
+                <a href="JavaExceptionTypes.html">
+            
+                    
+                    Java Exception Types
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="ThrowsAndThrowKeyword.html">
+            
+                <a href="ThrowsAndThrowKeyword.html">
+            
+                    
+                    Throws & Throw Keyword
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="TheTryBlock.html">
+            
+                <a href="TheTryBlock.html">
+            
+                    
+                    The try Block
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="TheCatchBlock.html">
+            
+                <a href="TheCatchBlock.html">
+            
+                    
+                    The try Block
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="TheFinallyBlock.html">
+            
+                <a href="TheFinallyBlock.html">
+            
+                    
+                    The Finally Block
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="PutAllTogether.html">
+            
+                <a href="PutAllTogether.html">
+            
+                    
+                    Put All Together
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.8" data-path="HowToThrowExceptions.html">
+            
+                <a href="HowToThrowExceptions.html">
+            
+                    
+                    How to Throw Exceptions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9" data-path="ChapterSummary.html">
+            
+                <a href="ChapterSummary.html">
+            
+                    
+                    Summary
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >How to Throw Exceptions</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="how-to-throw-exceptions">How to Throw Exceptions</h1>
+<p>Before you can catch an exception, some code somewhere must throw one. Any code can throw an exception: your code, code from a package written by someone else such as the packages that come with the Java platform, or the Java runtime environment. Regardless of what throws the exception, it&apos;s always thrown with the <code>throw</code> statement.</p>
+<p>As you have probably noticed, the Java platform provides numerous exception classes. All the classes are descendants of the <code>Throwable</code> class, and all allow programs to differentiate among the various types of exceptions that can occur during the execution of a program.</p>
+<p>You can also create your own exception classes to represent problems that can occur within the classes you write. In fact, if you are a package developer, you might have to create your own set of exception classes to allow users to differentiate an error that can occur in your package from errors that occur in the Java platform or other packages.</p>
+<h3 id="the-throw-statement">The throw Statement</h3>
+<p>All methods use the <code>throw</code> statement to throw an exception. The <code>throw</code> statement requires a single argument: a throwable object. Throwable objects are instances of any subclass of the <code>Throwable</code> class. Here&apos;s an example of a <code>throw</code> statement.</p>
+<pre class="language-"><code class="lang-java"><span class="token keyword">throw</span> someThrowableObject<span class="token punctuation">;</span>
+</code></pre>
+<p>Let&apos;s look at the <code>throw</code> statement in context.</p>
+<pre class="language-"><code class="lang-java"><span class="token keyword">package</span> throwExceptionDemo<span class="token punctuation">;</span>
+&#x200B;
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">ThrowExceptionDemo</span> <span class="token punctuation">{</span>
+&#x200B;
+  <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">try</span> <span class="token punctuation">{</span>
+      <span class="token comment">// Throw an object of user defined exception</span>
+      <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">OwnDefinedException</span><span class="token punctuation">(</span><span class="token string">&quot;OwnDefinedException occurs&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">OwnDefinedException</span> ex<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">// Print the message from OwnDefinedException object</span>
+      System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>ex<span class="token punctuation">.</span><span class="token function">getMessage</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>The <code>OwnDefinedException</code> class is a use defined Exception.</p>
+<pre class="language-"><code class="lang-java"><span class="token keyword">package</span> throwExceptionDemo<span class="token punctuation">;</span>
+&#x200B;
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">OwnDefinedException</span> <span class="token keyword">extends</span> <span class="token class-name">RuntimeException</span> <span class="token punctuation">{</span>
+&#x200B;
+  <span class="token keyword">public</span> <span class="token function">OwnDefinedException</span><span class="token punctuation">(</span>String s<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">super</span><span class="token punctuation">(</span>s<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h3 id="throwable-class-and-its-subclasses">Throwable Class and Its Subclasses</h3>
+<p>The objects that inherit from the <code>Throwable</code> class include direct descendants (objects that inherit directly from the <code>Throwable</code> class) and indirect descendants (objects that inherit from children or grandchildren of the <code>Throwable</code> class). The figure below illustrates the class hierarchy of the <code>Throwable</code> class and its most significant subclasses. As you can see, <code>Throwable</code> has two direct descendants:<code>Error</code>and <code>Exception</code>.</p>
+<p><img src="https://lh3.googleusercontent.com/7T3hp27aQm8e9v10Jf0Mu4JSvGdsB8uNYo9EnD_2rZsQFbAldhbm0NNMHxwjNSc1qbYKdhaZyKWhZ_HyuCyj3tnSzXuk2oCas_Sqllv58qSKH5AdoW6Ilspi1gBU9SXPy6-njfVukYtavg7Kl8mq4dS1LeMdZ9EuTPkjUcBz59vIo4hqNLy89FNJOmmwNAFol2EKfm9NYvsIrZJgoEn3dJF1lXNg9mVDSuY4oeOZcgG92_JIc7m58MYC-Z9LihOvxy9aDGcrM4UhmhTvW1NSe4UGzD9oKQOheMQb2fQhlOPtKuqxoCVS9Es_7T_gS933paQ2O2_8BvqIvelS1KQyDLqXHk2JEStgPIW0LUT2QnkWgDtfavQNg0LzcDmDH0oViPYODommV1Sg_oMZ5NbgLehtHLM3E9FAXRMOhf675OXJ1M3_9wMqmnR84bx53t7XjX0xcr94cJIwyfKWYqQ0pi4-edFUfrSrDhpGnHfhiktlrLE7pPcjlBckYB5_BJ8_4Fyyu2x4BlebrRvHc650D4j6FvZWrDSS5MQ7WDM5yrYPcT2dia3Htw-aqJvJmAnrHFIOcl8ZGgQx1AxHgkhAlBY_TRYulQ-tqOizTnHgxfibpM7n-qfJ5IiLVNHNHsU=w613-h546-no" alt=""></p>
+<p> The Throwable class.</p>
+<h3 id="error-class">Error Class</h3>
+<p>When a dynamic linking failure or other hard failure in the Java virtual machine occurs, the virtual machine throws an <code>Error</code>. Simple programs typically do <em>not</em> catch or throw Errors.</p>
+<h3 id="exception-class">Exception Class</h3>
+<p>Most programs throw and catch objects that derive from the <code>Exception</code> class. An <code>Exception</code> indicates that a problem occurred, but it is not a serious system problem. Most programs you write will throw and catch <code>Exception</code>s as opposed to <code>Error</code>s.</p>
+<p>The Java platform defines the many descendants of the <code>Exception</code> class. These descendants indicate various types of exceptions that can occur. For example, <code>IllegalAccessException</code> signals that a particular method could not be found, and <code>NegativeArraySizeException</code> indicates that a program attempted to create an array with a negative size.</p>
+<p>One <code>Exception</code> subclass, <code>RuntimeException</code>, is reserved for exceptions that indicate incorrect use of an API. An example of a runtime exception is <code>NullPointerException</code>, which occurs when a method tries to access a member of an object through a <code>null</code> reference. The section Unchecked Exceptions &#x2014; The Controversy discusses why most applications shouldn&apos;t throw runtime exceptions or subclass <code>RuntimeException</code>.</p>
+<h3 id="source-code">Source code</h3>
+<p><a href="https://github.com/AndrewProgramming/JavaTutorial_JavaExceptionDemo/blob/master/README.md" target="_blank">Github</a></p>
+<h3 id="find-more-tutorials">Find more tutorials</h3>
+<p><a href="www.andrew-programming.com">www.andrew-programming.com</a></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="PutAllTogether.html" class="navigation navigation-prev " aria-label="Previous page: Put All Together">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="ChapterSummary.html" class="navigation navigation-next " aria-label="Next page: Summary">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"How to Throw Exceptions","level":"1.3.8","depth":2,"next":{"title":"Summary","level":"1.3.9","depth":2,"path":"JavaException/ChapterSummary.md","ref":"JavaException/ChapterSummary.md","articles":[]},"previous":{"title":"Put All Together","level":"1.3.7","depth":2,"path":"JavaException/PutAllTogether.md","ref":"JavaException/PutAllTogether.md","articles":[]},"dir":"ltr"},"config":{"plugins":["disqus","github","prism","-highlight","splitter","ad","sharing","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{},"disqus":{"useIdentifier":false,"shortName":"webpack-handbook"},"ad":{"contentBottom":"<div>Finding more tutorials on <a target=\"_blank\" href=\"http://www.andrew-programming.com\">Andrew Programming</a></div>","contentTop":"<div>Finding more tutorials on <a target=\"_blank\" href=\"http://www.andrew-programming.com\">Andrew Programming</a></div>"},"github":{"url":"https://github.com/AndrewProgramming"},"livereload":{},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"sitemap":{"hostname":"http://zhaoda.net/"},"sharing":{"qq":true,"all":["facebook","google","twitter","weibo","instapaper"],"facebook":true,"weibo":true,"instapaper":false,"twitter":true,"vk":false,"google":true,"linkedin":true},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Andrew Programming","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Java Tutorial","language":"en","links":{"sidebar":{"Andrew Programming Site":"http://www.andrew-programming.com","Code on Github":"https://github.com/AndrewProgramming"}},"gitbook":"*","description":"Java Tutorial for complete beginner","theme-default":{"showLevel":true}},"file":{"path":"JavaException/HowToThrowExceptions.md","mtime":"2018-09-27T09:25:32.617Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-09-27T09:30:07.521Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-ad/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

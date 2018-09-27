@@ -1,0 +1,470 @@
+
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Introduction To Java Exception · Java Tutorial</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Andrew Programming">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-disqus/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-ad/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="JavaExceptionTypes.html" />
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="http://www.andrew-programming.com" target="_blank" class="custom-link">Andrew Programming Site</a>
+        </li>
+    
+        
+        <li>
+            <a href="https://github.com/AndrewProgramming" target="_blank" class="custom-link">Code on Github</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    Java Basic
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../Basic/IntroductionToJavaProgramming.html">
+            
+                <a href="../Basic/IntroductionToJavaProgramming.html">
+            
+                    
+                    Introduction To Java Programming
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../Basic/JDKandJREandJVM.html">
+            
+                <a href="../Basic/JDKandJREandJVM.html">
+            
+                    
+                    JDK JRE and JVM
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    Java Exceptions
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.3.1" data-path="IntroductionToJavaException.html">
+            
+                <a href="IntroductionToJavaException.html">
+            
+                    
+                    Introduction To Java Exception
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="JavaExceptionTypes.html">
+            
+                <a href="JavaExceptionTypes.html">
+            
+                    
+                    Java Exception Types
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="ThrowsAndThrowKeyword.html">
+            
+                <a href="ThrowsAndThrowKeyword.html">
+            
+                    
+                    Throws & Throw Keyword
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="TheTryBlock.html">
+            
+                <a href="TheTryBlock.html">
+            
+                    
+                    The try Block
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="TheCatchBlock.html">
+            
+                <a href="TheCatchBlock.html">
+            
+                    
+                    The try Block
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="TheFinallyBlock.html">
+            
+                <a href="TheFinallyBlock.html">
+            
+                    
+                    The Finally Block
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="PutAllTogether.html">
+            
+                <a href="PutAllTogether.html">
+            
+                    
+                    Put All Together
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="HowToThrowExceptions.html">
+            
+                <a href="HowToThrowExceptions.html">
+            
+                    
+                    How to Throw Exceptions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9" data-path="ChapterSummary.html">
+            
+                <a href="ChapterSummary.html">
+            
+                    
+                    Summary
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Introduction To Java Exception</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="introduction">Introduction</h2>
+<p>Exception handling enables a program to deal with exceptional situations and continue its normal execution.</p>
+<h3 id="what-is-an-exception">What Is an Exception?</h3>
+<p>The term <em>exception</em> is shorthand for the phrase &quot;exceptional event.&quot;</p>
+<blockquote>
+<p><strong>Definition:</strong> An <em>exception</em> is an event, which occurs during the execution of a program, that disrupts the normal flow of the program&apos;s instructions.</p>
+</blockquote>
+<p>When an error occurs within a method, the method creates an object and hands it off to the runtime system. The object, called an <strong>exception object</strong>, contains information about the error, including its type and the state of the program when the error occurred. Creating an exception object and handing it to the runtime system is called <strong>throwing an exception</strong>.</p>
+<p>After a method throws an exception, the runtime system attempts to find something to handle it. The set of possible &quot;somethings&quot; to handle the exception is the ordered list of methods that had been called to get to the method where the error occurred. The list of methods is known as the <em>call stack</em> (see the next figure).</p>
+<p><img src="https://lh3.googleusercontent.com/E5sqZAbw-R9OH9rJdN_TrN6OaHyRksivUGo8R3U9V4AulbNDBr5OTKfbYotF_Yu5RRTZ5gluMphM37mOK22IB2T7XKjy--F7jDYteK5KjNl0qAZZCNv5Pu-v1DoJZdQa2LRXJ6DOLo7JZMPvzMdmACWL4BMfpD07U7wKN9QpMLWfRIJ5C1H5lB5BRvBKpuqsSoEvIG6WrT6SAKvY1ftcyGNrBozwiuejeLVJjWn8nGtnWOszjZsT17ZWANHo6XeGHOOg7denjlNRQS4Sc5xZmF_Ydogate2RENUFmOwfZPglNcKBMAKtVy-so19gO46NnR4YGi03CK40w21zbvFvcxWrm2W3Mpk8rg5gOb5Mpl0JTJrb3f-q7iEofAGtPqS-7wlYJhc79QYIk1McZydqNYJYvDfKOpuTlEYMDe8bmXymC0EDZlpCDz9hBS4xytYCF-iiO6lVH8hqBGOzgRxDyvHUoaIdBC2VqATVumsW61dvnDSJ1u2Rsb2suQCF_w34IVrKZ75vy_CpHHnyH8Y-mLoX0u6YfgoOpIP5Hq5gc-L4BRkH6K_S2oub8h-sXPlWx4NiXcFq7LNw8cfquZ1weHPI-93HGmGAs6T2sG9TeMfWW1ioYnvwP3DclDxt47s=w288-h193-no" alt="img"></p>
+<p>&#x200B;                                               The call stack.</p>
+<p>The runtime system searches the call stack for a method that contains a block of code that can handle the exception. This block of code is called an <em>exception handler</em>. The search begins with the method in which the error occurred and proceeds through the call stack in the reverse order in which the methods were called. When an appropriate handler is found, the runtime system passes the exception to the handler. An exception handler is considered appropriate if the type of the exception object thrown matches the type that can be handled by the handler.</p>
+<p>The exception handler chosen is said to <em>catch the exception</em>. If the runtime system exhaustively searches all the methods on the call stack without finding an appropriate exception handler, as shown in the next figure, the runtime system (and, consequently, the program) terminates.</p>
+<p><img src="https://lh3.googleusercontent.com/7TB6nfKSK8t0NZdhOuzqfud6ryHeziD0y1wNpQEqEkIHxKBrJ35prdI0VB6Fa-MRCbU6K-b5nNDiUpgzPSia0vL_QB421TR87An6fkDjcZF7Fnxw8Gq1QPpztt7dgRqWKAfNu8v1Vf83RFL9KgkjejOaaLESHG06DANNs76eoUCCe4vNnGMDVlaIcT0iaoarGSra64KTxgGOG-QJ_VUt2M1r8KzZexrWhZOBPnPK5qTWY3TecYmj_lVZ60pyxFooCek3IiEEi9ZCqKhxQNWkGajHFV63bfXQjMjm-IF8S4QdL6Zz8lWiIw3qxDzl8ww2uBZQ-MOj6KbB_ox5kIV95dgDQC0-jry1m1sbYaRP2TD_tBVB-AMMdrg_tGEefS79Ubk5BZvbKDPmaQdiot_sZpkyFLbhi1imddw1qultEu4C0_UfsuXM8FF8kNzYTuo1mDKxbi2oW5fRX-W6asNVL16EqRqkAnVE3o-2fMPDpXLhQZEjKFChTIGknPRF-Xbs2tfNA_VtgGVudpSUKFNB0kPFpO14VCGE-52WNAq04Z6R7VrjX3vG2SqdpaX1XBWtLRMdesyObvuGcjBvZB7nyPNAxNV2HEX7f_DrlidJLRDmAnVJ-erVASuOG_lclTo=w411-h193-no" alt="img"></p>
+<p>&#x200B;                            Searching the call stack for the exception handler.</p>
+<p>Using exceptions to manage errors has some advantages over traditional error-management techniques. </p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+                <a href="JavaExceptionTypes.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Java Exception Types">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Introduction To Java Exception","level":"1.3.1","depth":2,"next":{"title":"Java Exception Types","level":"1.3.2","depth":2,"path":"JavaException/JavaExceptionTypes.md","ref":"JavaException/JavaExceptionTypes.md","articles":[]},"previous":{"title":"Java Exceptions","level":"1.3","depth":1,"ref":"","articles":[{"title":"Introduction To Java Exception","level":"1.3.1","depth":2,"path":"JavaException/IntroductionToJavaException.md","ref":"JavaException/IntroductionToJavaException.md","articles":[]},{"title":"Java Exception Types","level":"1.3.2","depth":2,"path":"JavaException/JavaExceptionTypes.md","ref":"JavaException/JavaExceptionTypes.md","articles":[]},{"title":"Throws & Throw Keyword","level":"1.3.3","depth":2,"path":"JavaException/ThrowsAndThrowKeyword.md","ref":"JavaException/ThrowsAndThrowKeyword.md","articles":[]},{"title":"The try Block","level":"1.3.4","depth":2,"path":"JavaException/TheTryBlock.md","ref":"JavaException/TheTryBlock.md","articles":[]},{"title":"The try Block","level":"1.3.5","depth":2,"path":"JavaException/TheCatchBlock.md","ref":"JavaException/TheCatchBlock.md","articles":[]},{"title":"The Finally Block","level":"1.3.6","depth":2,"path":"JavaException/TheFinallyBlock.md","ref":"JavaException/TheFinallyBlock.md","articles":[]},{"title":"Put All Together","level":"1.3.7","depth":2,"path":"JavaException/PutAllTogether.md","ref":"JavaException/PutAllTogether.md","articles":[]},{"title":"How to Throw Exceptions","level":"1.3.8","depth":2,"path":"JavaException/HowToThrowExceptions.md","ref":"JavaException/HowToThrowExceptions.md","articles":[]},{"title":"Summary","level":"1.3.9","depth":2,"path":"JavaException/ChapterSummary.md","ref":"JavaException/ChapterSummary.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["disqus","github","prism","-highlight","splitter","ad","sharing","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{},"disqus":{"useIdentifier":false,"shortName":"webpack-handbook"},"ad":{"contentBottom":"<div>Finding more tutorials on <a target=\"_blank\" href=\"http://www.andrew-programming.com\">Andrew Programming</a></div>","contentTop":"<div>Finding more tutorials on <a target=\"_blank\" href=\"http://www.andrew-programming.com\">Andrew Programming</a></div>"},"github":{"url":"https://github.com/AndrewProgramming"},"livereload":{},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"sitemap":{"hostname":"http://zhaoda.net/"},"sharing":{"qq":true,"all":["facebook","google","twitter","weibo","instapaper"],"facebook":true,"weibo":true,"instapaper":false,"twitter":true,"vk":false,"google":true,"linkedin":true},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Andrew Programming","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Java Tutorial","language":"en","links":{"sidebar":{"Andrew Programming Site":"http://www.andrew-programming.com","Code on Github":"https://github.com/AndrewProgramming"}},"gitbook":"*","description":"Java Tutorial for complete beginner","theme-default":{"showLevel":true}},"file":{"path":"JavaException/IntroductionToJavaException.md","mtime":"2018-09-27T09:25:32.617Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-09-27T09:30:07.521Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-ad/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
